@@ -18,12 +18,12 @@ class Family
         this.people.Add(person);
     }
 
-    public Person GetOldestMember()
-    {
-        var oldes = people.Max(x => x.age);
+    //public  Person GetOldestMember()
+    //{
+    //    var oldes = people.Max(x => x.age);
 
-        return people.FirstOrDefault(x => x.age == oldes);
-    }
+    //    return people.FirstOrDefault(x => x.age == oldes);
+    //}
 
 
 
