@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Lab-DefiningClasses", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Exercises-DefiningClasses", "02.Exercises-DefiningClasses\02.Exercises-DefiningClasses.csproj", "{F037BD05-E542-4017-B71C-E274134B944D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Lab-Encapsulation", "03.Lab-Encapsulation\03.Lab-Encapsulation.csproj", "{8869A0F6-C9B1-4D56-B213-D398B578B3E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F037BD05-E542-4017-B71C-E274134B944D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F037BD05-E542-4017-B71C-E274134B944D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F037BD05-E542-4017-B71C-E274134B944D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8869A0F6-C9B1-4D56-B213-D398B578B3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8869A0F6-C9B1-4D56-B213-D398B578B3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8869A0F6-C9B1-4D56-B213-D398B578B3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8869A0F6-C9B1-4D56-B213-D398B578B3E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

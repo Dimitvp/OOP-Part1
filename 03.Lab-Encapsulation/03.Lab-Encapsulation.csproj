@@ -4,14 +4,29 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F037BD05-E542-4017-B71C-E274134B944D}</ProjectGuid>
+    <ProjectGuid>{8869A0F6-C9B1-4D56-B213-D398B578B3E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02.Exercises_DefiningClasses</RootNamespace>
-    <AssemblyName>02.Exercises-DefiningClasses</AssemblyName>
+    <RootNamespace>_03.Lab_Encapsulation</RootNamespace>
+    <AssemblyName>03.Lab-Encapsulation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,34 +58,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Cargo.cs" />
-    <Compile Include="Cat.cs" />
-    <Compile Include="CorDraw.cs" />
-    <Compile Include="Cymric.cs" />
-    <Compile Include="DateModifier.cs" />
-    <Compile Include="DemoClass.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Engine.cs" />
-    <Compile Include="Family.cs" />
-    <Compile Include="Google\Car.cs" />
-    <Compile Include="Google\Children.cs" />
-    <Compile Include="Google\Parent.cs" />
-    <Compile Include="Google\Person.cs" />
-    <Compile Include="Google\Pokemon.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="Pokemon.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Siamese.cs" />
-    <Compile Include="Square.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StreetExtraordinaire.cs" />
-    <Compile Include="Tire.cs" />
-    <Compile Include="Trainer.cs" />
+    <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
