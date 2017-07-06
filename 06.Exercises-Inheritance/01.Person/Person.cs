@@ -1,26 +1,26 @@
 ﻿using System;
 using System.Text;
 
-class Person
+public class Person
 {
     private int age;
     private string name;
 
     public Person(string name, int age)
     {
-        this.Age = age;
         this.Name = name;
-    }
+        this.Age = age;
+        }
 
 
-    public virtual string Name
+    public string Name
     {
         get { return this.name; }
-       protected set
+        protected set
         {
             if (value.Length < 3)
             {
-                throw  new ArgumentException("Name's length should not be less than 3 symbols!");
+                throw new ArgumentException("Name's length should not be less than 3 symbols!");
             }
             this.name = value;
         }

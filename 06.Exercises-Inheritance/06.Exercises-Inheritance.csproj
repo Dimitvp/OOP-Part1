@@ -42,13 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Child.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="01.Person\Child.cs" />
+    <Compile Include="01.Person\Person.cs" />
+    <Compile Include="02.BookShop\Book.cs" />
+    <Compile Include="02.BookShop\GoldenEditionBook.cs" />
+    <Compile Include="03.Mankind\Human.cs" />
+    <Compile Include="03.Mankind\Student.cs" />
+    <Compile Include="03.Mankind\Worker.cs" />
+    <Compile Include="04.OnlineRadioDatabase\InvalidArtistNameException.cs" />
+    <Compile Include="04.OnlineRadioDatabase\InvalidSongException.cs" />
+    <Compile Include="04.OnlineRadioDatabase\InvalidSongLengthException.cs" />
+    <Compile Include="04.OnlineRadioDatabase\InvalidSongMinutesException.cs" />
+    <Compile Include="04.OnlineRadioDatabase\InvalidSongNameException.cs" />
+    <Compile Include="04.OnlineRadioDatabase\InvalidSongSecondsException.cs" />
+    <Compile Include="04.OnlineRadioDatabase\Song.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Child : Person
+public class Child : Person
 {
     public Child(string name, int age)
         : base(name, age)
@@ -11,7 +11,7 @@ class Child : Person
     public override int Age
     {
         get { return base.Age; }
-       protected set
+        protected set
         {
             if (value > 15)
             {
