@@ -56,6 +56,22 @@
     <Compile Include="04.OnlineRadioDatabase\InvalidSongNameException.cs" />
     <Compile Include="04.OnlineRadioDatabase\InvalidSongSecondsException.cs" />
     <Compile Include="04.OnlineRadioDatabase\Song.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Apple.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Cram.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Else.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\FoodFactory.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\HoneyCake.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Lembas.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Melon.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Mood.cs" />
+    <Compile Include="05.MordorsCrueltyPlan\Mushrooms.cs" />
+    <Compile Include="06.Animals\HomeAnimalFactory.cs" />
+    <Compile Include="06.Animals\AnimalAbstraction.cs" />
+    <Compile Include="06.Animals\Cat.cs" />
+    <Compile Include="06.Animals\Dog.cs" />
+    <Compile Include="06.Animals\Frog.cs" />
+    <Compile Include="06.Animals\Kitten.cs" />
+    <Compile Include="06.Animals\Tomcats.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
