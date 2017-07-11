@@ -1,9 +1,9 @@
 ﻿
 using System;
 
-public class HomeAnimalFactory : AnimalAbstraction
+public class HomeHomeAnimalFactory : HomeAnimalAbstraction
 {
-    public HomeAnimalFactory(string name, int age, string gender)
+    public HomeHomeAnimalFactory(string name, int age, string gender)
     : base(name, age, gender)
     {
     }

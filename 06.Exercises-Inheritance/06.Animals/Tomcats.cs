@@ -1,5 +1,5 @@
 ﻿
-    class Tomcat:HomeAnimalFactory
+    class Tomcat:HomeHomeAnimalFactory
     {
         public Tomcat(string name, int age) 
         : base(name, age, "Male")

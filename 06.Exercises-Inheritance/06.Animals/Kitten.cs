@@ -1,5 +1,5 @@
 ﻿
-    class Kitten: HomeAnimalFactory
+    class Kitten: HomeHomeAnimalFactory
 {
         public Kitten(string name, int age) 
         : base(name, age, "Female")

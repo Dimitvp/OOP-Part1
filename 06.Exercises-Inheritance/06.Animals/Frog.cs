@@ -1,5 +1,5 @@
 ﻿
-class Frog : HomeAnimalFactory
+class Frog : HomeHomeAnimalFactory
 {
     public Frog(string name, int age, string gender)
         : base(name, age, gender)

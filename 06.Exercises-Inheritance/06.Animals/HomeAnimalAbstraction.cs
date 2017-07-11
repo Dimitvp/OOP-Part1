@@ -1,13 +1,11 @@
 ﻿
-using System.Security.AccessControl;
-
-public abstract class AnimalAbstraction
+public abstract class HomeAnimalAbstraction
 {
     private string name;
     private int age;
     private string gender;
 
-    public AnimalAbstraction(string name, int age, string gender)
+    public HomeAnimalAbstraction(string name, int age, string gender)
     {
         this.Name = name;
         this.Age = age;

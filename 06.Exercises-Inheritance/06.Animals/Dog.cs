@@ -1,4 +1,4 @@
-﻿class Dog : HomeAnimalFactory
+﻿class Dog : HomeHomeAnimalFactory
 {
     public Dog(string name, int age, string gender)
         : base(name, age, gender)

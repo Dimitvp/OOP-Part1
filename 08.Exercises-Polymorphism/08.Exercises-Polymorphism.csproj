@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FEE5772E-982F-4812-9BB6-0AB2E6406FE8}</ProjectGuid>
+    <ProjectGuid>{2DA40C53-978A-4FE4-BBCA-D2C71CF3605E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Exercises_Inheritance</RootNamespace>
-    <AssemblyName>06.Exercises-Inheritance</AssemblyName>
+    <RootNamespace>_08.Exercises_Polymorphism</RootNamespace>
+    <AssemblyName>08.Exercises-Polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,42 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01.Person\Child.cs" />
-    <Compile Include="01.Person\Person.cs" />
-    <Compile Include="02.BookShop\Book.cs" />
-    <Compile Include="02.BookShop\GoldenEditionBook.cs" />
-    <Compile Include="03.Mankind\Human.cs" />
-    <Compile Include="03.Mankind\Student.cs" />
-    <Compile Include="03.Mankind\Worker.cs" />
-    <Compile Include="04.OnlineRadioDatabase\InvalidArtistNameException.cs" />
-    <Compile Include="04.OnlineRadioDatabase\InvalidSongException.cs" />
-    <Compile Include="04.OnlineRadioDatabase\InvalidSongLengthException.cs" />
-    <Compile Include="04.OnlineRadioDatabase\InvalidSongMinutesException.cs" />
-    <Compile Include="04.OnlineRadioDatabase\InvalidSongNameException.cs" />
-    <Compile Include="04.OnlineRadioDatabase\InvalidSongSecondsException.cs" />
-    <Compile Include="04.OnlineRadioDatabase\Song.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Apple.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Cram.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Else.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\FoodFactory.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\HoneyCake.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Lembas.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Melon.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Mood.cs" />
-    <Compile Include="05.MordorsCrueltyPlan\Mushrooms.cs" />
-    <Compile Include="06.Animals\HomeHomeAnimalFactory.cs" />
-    <Compile Include="06.Animals\HomeAnimalAbstraction.cs" />
-    <Compile Include="06.Animals\Cat.cs" />
-    <Compile Include="06.Animals\Dog.cs" />
-    <Compile Include="06.Animals\Frog.cs" />
-    <Compile Include="06.Animals\Kitten.cs" />
-    <Compile Include="06.Animals\Tomcats.cs" />
+    <Compile Include="01.Vehicles\Bus.cs" />
+    <Compile Include="01.Vehicles\Car.cs" />
+    <Compile Include="01.Vehicles\Truck.cs" />
+    <Compile Include="01.Vehicles\Vehicle.cs" />
+    <Compile Include="03.WildFarm\Animal.cs" />
+    <Compile Include="03.WildFarm\Cat.cs" />
+    <Compile Include="03.WildFarm\Felime.cs" />
+    <Compile Include="03.WildFarm\Food.cs" />
+    <Compile Include="03.WildFarm\Mammal.cs" />
+    <Compile Include="03.WildFarm\Meat.cs" />
+    <Compile Include="03.WildFarm\Mouse.cs" />
+    <Compile Include="03.WildFarm\Tiger.cs" />
+    <Compile Include="03.WildFarm\Vegetable.cs" />
+    <Compile Include="03.WildFarm\Zebra.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\First.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
